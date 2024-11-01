@@ -1,0 +1,38 @@
+@import '../../styles/globals.scss';
+
+.templateBoxedContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: $header-height;
+    max-width: $boxed-with;
+}
+
+.content {
+    width: 100%;
+    max-width: $boxed-with;
+}
+
+.footerBg {
+    background-color: #E7ECFF;
+    width: 100%;
+    height: $footer-height;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer {
+    width: 100%;
+    max-width: $boxed-with;
+}
+
+@media screen and (min-width: 400px) {
+
+}

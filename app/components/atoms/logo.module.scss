@@ -1,0 +1,12 @@
+@import '../../styles/globals.scss';
+
+.logo {
+    color: $primary-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 79px;
+    height: 38px;
+    font-size: 26px;
+    font-weight: $black-weight;
+}
